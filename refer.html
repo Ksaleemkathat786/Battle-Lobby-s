@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Refer and Earn - Grind Battle</title>
+
+  <!-- ✅ Dynamically insert base href only on GitHub Pages -->
+  <script>
+    if (location.hostname === "raees394.github.io") {
+      const base = document.createElement('base');
+      base.href = "/Battle-Lobby-s/";
+      document.head.appendChild(base);
+    }
+  </script>
+
+  <!-- ✅ CSS path (no ./ needed with base tag or when local) -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+    .icon-section {
+      font-size: 30px;
+      margin: 10px 0 20px;
+      color: #0f4c81;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 10px;
+    }
+    .social-icons a {
+      color: #0f4c81;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .site-footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f1f1f1;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <!-- ✅ Image path -->
+      <img src="images/logo.png" alt="Grind Battle Logo" class="logo">
+      <nav>
+        <!-- ✅ Navigation links -->
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="refer.html" class="active">Refer and Earn</a>
+        <a href="contact.html">Contact</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="fairplay.html">Fair Play Policy</a>
+        <a href="return.html">Return Policy</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Page Heading Section -->
+    <section class="page-heading" style="margin-bottom: 40px;">
+      <div class="container">
+        <h1>Refer and Earn</h1>
+        <p><a href="index.html">Home</a> / Refer and Earn</p>
+      </div>
+    </section>
+
+    <!-- Refer Content Section -->
+    <section class="refer-content">
+      <div class="container">
+        <p><strong>Battle Lobby</strong> offers you a great opportunity to earn money by referring your friends. The more people you refer, the more rewards you earn!</p>
+
+        <p>Every time your referred friend joins the app and plays a match, you earn a reward instantly. This is a perfect way to earn while enjoying your favorite games.</p>
+
+        <h2>How Refer Works?</h2>
+        <div class="icon-section">
+          <i class="fas fa-user-friends" style="color: #2a87d1;"></i>
+        </div>
+        <ul>
+          <li>Go to your profile and copy your referral code.</li>
+          <li>Ask your friends to download the Grind Battle app.</li>
+          <li>Once they enter your referral code and play their first match, you receive a bonus!</li>
+        </ul>
+
+        <h2>How Rewards Work?</h2>
+        <div class="icon-section">
+          <i class="fas fa-coins" style="color: #f0a500;"></i>
+        </div>
+        <ul>
+          <li>You can earn between ₹10 to ₹50 for every successful referral.</li>
+          <li>The more your referred user plays, the more rewards you receive.</li>
+          <li>Use your earned bonus to join matches or purchase in-game items.</li>
+        </ul>
+
+        <p>So what are you waiting for? Start referring and start earning today!</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p>Copyright © 2025 All rights reserved</p>
+  </footer>
+
+</body>
+</html>
